@@ -17,5 +17,9 @@
 
   "skill_angular_name": "Angular",
   "skill_angular_subtitle": "TypeScript-based open-source web application framework",
-  "skill_angular_description": ""
+  "skill_angular_description": "Multiple years of experience with planning, designing, implementing and supporting of extensive Angular applications. Reusable components and standardized services in a smart and lean package structures have highest priority.",
+
+  "skill_java_name": "Java",
+  "skill_java_subtitle": "Java is a object oriented programming language",
+  "skill_java_description": "Java was learned during study of computer science at the University Of Bremen. Through the work with Java, Spring and JSF in the area of product configuration software the skills needed to create performant and scalable web applications were acquired."
 }
