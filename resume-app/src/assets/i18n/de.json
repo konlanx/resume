@@ -13,5 +13,9 @@
   "person": "Person",
   "companies": "Unternehmen",
   "skills": "Skills",
-  "education": "Bildung"
+  "education": "Bildung",
+
+  "skill_angular_name": "Angular",
+  "skill_angular_subtitle": "TypeScript-basiertes Front-End-Webapplikationsframework",
+  "skill_angular_description": "Mehrjährige Erfahrung mit der Planung, Gestaltung, Umsetzung und Wartung von umfangreichen Angular-Anwendungen. Wiederverwendbare Komponenten und standardisierte Services in einer sinnvollen und schlanken Paketstruktur sind hierbei oberste Priorität."
 }

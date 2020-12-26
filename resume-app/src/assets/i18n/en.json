@@ -13,5 +13,9 @@
   "person": "Person",
   "companies": "Companies",
   "skills": "Skills",
-  "education": "Education"
+  "education": "Education",
+
+  "skill_angular_name": "Angular",
+  "skill_angular_subtitle": "TypeScript-based open-source web application framework",
+  "skill_angular_description": ""
 }

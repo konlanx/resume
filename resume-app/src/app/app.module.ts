@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AnimationFrameComponent } from './animation-frame/animation-frame.component';
@@ -21,6 +20,7 @@ import { PersonComponent } from './person/person.component';
 import { CompaniesComponent } from './companies/companies.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SkillComponent } from './skill/skill.component';
+import { MatProgressBarModule} from "@angular/material/progress-bar";
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -56,6 +56,7 @@ export function createTranslateLoader(http: HttpClient) {
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

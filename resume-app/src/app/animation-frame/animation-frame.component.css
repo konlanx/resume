@@ -1,0 +1,13 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-container {
+  flex: 0 0 auto;
+}
+
+.sub-outlet {
+  flex: 1 1 auto;
+  overflow-y: auto;
+}

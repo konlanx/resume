@@ -8,8 +8,14 @@ export const slideVerticalAnimation =
 
 export const slideHorizontalAnimation =
   trigger('routeAnimations', [
-    transition('Person => Companies', slideVertical('left') ),
-    transition('Companies => Person', slideVertical('left') )
+    transition('Person => Companies', slideHorizontal('right') ),
+    transition('Person => Skills', slideHorizontal('right') ),
+
+    transition('Companies => Person', slideHorizontal('left') ),
+    transition('Companies => Skills', slideHorizontal('right') ),
+
+    transition('Skills => Person', slideHorizontal('left') ),
+    transition('Skills => Companies', slideHorizontal('left') ),
   ]);
 
 function slideVertical(direction: string) {
@@ -45,7 +51,6 @@ function slideHorizontal(direction: string) {
     query(':enter, :leave', [
       style({
         position: 'absolute',
-        top: 0,
         [direction]: 0,
         width: '100%'
       })

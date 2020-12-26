@@ -4,6 +4,7 @@ import {CounterfeitButtonComponent} from "./counterfeit-button/counterfeit-butto
 import {AnimationFrameComponent} from "./animation-frame/animation-frame.component";
 import {PersonComponent} from "./person/person.component";
 import {CompaniesComponent} from "./companies/companies.component";
+import {SkillsComponent} from "./skills/skills.component";
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/counterfeit'},
@@ -12,7 +13,8 @@ const routes: Routes = [
     children: [
       { path: '', component: PersonComponent, data: {animation: 'Person'} },
       { path: 'person', component: PersonComponent, data: {animation: 'Person'} },
-      { path: 'companies', component: CompaniesComponent, data: {animation: 'Companies'} }
+      { path: 'companies', component: CompaniesComponent, data: {animation: 'Companies'} },
+      { path: 'skills', component: SkillsComponent, data: {animation: 'Skills'} }
     ]
   }
 ];
