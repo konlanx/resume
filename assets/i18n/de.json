@@ -29,7 +29,11 @@
 
   "skill_scrum_name": "Scrum",
   "skill_scrum_subtitle": "Scrum ist ein Vorgehensmodell des Projekt- und Produktmanagements, insbesondere zur agilen Softwareentwicklung",
-  "skill_scrum_description": "Die Arbeit in Entwicklungsteams wurde von Anfang an mittels Scrum durchgeführt. Einige andere Verfahren wurden oberflächlich angetestet, doch die selbstsändige und dennoch gemeinsame Arbeit, welche durch Scrum gefördert wird, fühlt sich äußerst natürlich an."
+  "skill_scrum_description": "Die Arbeit in Entwicklungsteams wurde von Anfang an mittels Scrum durchgeführt. Einige andere Verfahren wurden oberflächlich angetestet, doch die selbstsändige und dennoch gemeinsame Arbeit, welche durch Scrum gefördert wird, fühlt sich äußerst natürlich an.",
+
+  "skill_csharp_name": "C#",
+  "skill_csharp_subtitle": "C# ist eine typsichere, objektorientierte Allzweck-Programmiersprache",
+  "skill_csharp_description": "skill_csharp_description"
 
 
 }
