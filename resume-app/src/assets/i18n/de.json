@@ -15,7 +15,21 @@
   "skills": "Skills",
   "education": "Bildung",
 
+  "timHansen": "Tim Hansen",
+  "occupationLocation": "Softwareentwickler, 26 Jahre alt, Hamburg",
+  "personal": "Persönliche Informationen",
+
   "skill_angular_name": "Angular",
   "skill_angular_subtitle": "TypeScript-basiertes Front-End-Webapplikationsframework",
-  "skill_angular_description": "Mehrjährige Erfahrung mit der Planung, Gestaltung, Umsetzung und Wartung von umfangreichen Angular-Anwendungen. Wiederverwendbare Komponenten und standardisierte Services in einer sinnvollen und schlanken Paketstruktur sind hierbei oberste Priorität."
+  "skill_angular_description": "Mehrjährige Erfahrung mit der Planung, Gestaltung, Umsetzung und Wartung von umfangreichen Angular-Anwendungen. Wiederverwendbare Komponenten und standardisierte Services in einer sinnvollen und schlanken Paketstruktur sind hierbei oberste Priorität.",
+
+  "skill_java_name": "Java",
+  "skill_java_subtitle": "Java ist eine objektorientierte Programmiersprache",
+  "skill_java_description": "Bereits im Studium im Bereich Informatik an der Universtität Bremen wurde der Umgang mit Java erlernt und gefestigt. Durch die Arbeit mit Java, Spring und JSF im Bereich von Produktkonfigurationssoftware wurden die Fähigkeiten gewonnen, die nötig sind, um performante und skalierbare Webanwendungen mit Java zu entwerfen.",
+
+  "skill_scrum_name": "Scrum",
+  "skill_scrum_subtitle": "Scrum ist ein Vorgehensmodell des Projekt- und Produktmanagements, insbesondere zur agilen Softwareentwicklung",
+  "skill_scrum_description": "Die Arbeit in Entwicklungsteams wurde von Anfang an mittels Scrum durchgeführt. Einige andere Verfahren wurden oberflächlich angetestet, doch die selbstsändige und dennoch gemeinsame Arbeit, welche durch Scrum gefördert wird, fühlt sich äußerst natürlich an."
+
+
 }

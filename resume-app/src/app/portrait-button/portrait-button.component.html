@@ -1,0 +1,9 @@
+<div class="background" [ngStyle]="{'width.px': getBackgroundWidth(), 'height.px': getBackgroundHeight()}">
+  <div class="portrait-button-container" [ngStyle]="{'width.px': getButtonSize(), 'height.px': getButtonSize(), 'margin-left.px': getButtonMargin(), 'margin-top.px': getButtonMargin()}">
+    <div class="portrait-button" [ngClass]="buttonMouse ? 'grow' : ''" (mouseenter)="buttonMouseEnter()" (mouseleave)="buttonMouseLeave()" (click)="routeToAnimationComponent()">
+      <img class="portrait-button-image" src="assets/portrait.png"  alt="Portrait"/>
+    </div>
+    <div class="portrait-button-border">
+    </div>
+  </div>
+</div>

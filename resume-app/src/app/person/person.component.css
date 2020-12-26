@@ -1,0 +1,18 @@
+.person-wrapper {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.header-image {
+  background-image: url('../../assets/portrait.png');
+  background-size: cover;
+  border: 1px solid white;
+  height: 8em;
+  width: 8em;
+}
+
+.mat-card-content {
+  margin-top: 1em;
+}

@@ -6,13 +6,13 @@
   height: 100%;
 }
 
-.counterfeit-button-container {
+.portrait-button-container {
   position: absolute;
   left: 50%;
   top: 50%;
 }
 
-.counterfeit-button-border {
+.portrait-button-border {
   z-index: 0;
   width: 100%;
   height: 100%;
@@ -21,13 +21,13 @@
   animation: heartbeat 2s infinite;
 }
 
-.counterfeit-button.grow {
+.portrait-button.grow {
   -webkit-transform: scale(1.15);
   -ms-transform: scale(1.15);
   transform: scale(1.15);
 }
 
-.counterfeit-button {
+.portrait-button {
   z-index: 1;
   position: absolute;
   left: 5%;
@@ -40,13 +40,13 @@
   transition-duration: 0.2s;
 }
 
-.counterfeit-button-image {
+.portrait-button-image {
   height: 100%;
   width: 100%;
   border-radius: 50%;
 }
 
-.counterfeit-button:hover {
+.portrait-button:hover {
   cursor: pointer;
 }
 

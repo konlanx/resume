@@ -2,11 +2,11 @@ import {Component, HostListener, OnInit} from '@angular/core';
 import {Router} from "@angular/router";
 
 @Component({
-  selector: 'app-counterfeit-button',
-  templateUrl: './counterfeit-button.component.html',
-  styleUrls: ['./counterfeit-button.component.css']
+  selector: 'app-portrait-button',
+  templateUrl: './portrait-button.component.html',
+  styleUrls: ['./portrait-button.component.css']
 })
-export class CounterfeitButtonComponent implements OnInit {
+export class PortraitButtonComponent implements OnInit {
 
   private buttonFactor = 0.4;
 
