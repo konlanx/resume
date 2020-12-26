@@ -20,15 +20,18 @@
   "personal": "Personal information",
 
   "skill_angular_name": "Angular",
-  "skill_angular_subtitle": "TypeScript-based open-source web application framework",
+  "skill_angular_subtitle": "Angular is a TypeScript-based open-source web application framework",
   "skill_angular_description": "Multiple years of experience with planning, designing, implementing and supporting of extensive Angular applications. Reusable components and standardized services in a smart and lean package structures have highest priority.",
 
   "skill_java_name": "Java",
   "skill_java_subtitle": "Java is a object oriented programming language",
   "skill_java_description": "Java was learned during study of computer science at the University Of Bremen. Through the work with Java, Spring and JSF in the area of product configuration software the skills needed to create performant and scalable web applications were acquired.",
 
-
   "skill_scrum_name": "Scrum",
   "skill_scrum_subtitle": "Scrum is an agile framework for developing, delivering, and sustaining complex products, with an emphasis on software development",
-  "skill_scrum_description": "The work in development teams was managed using scrum from the beginning. Some other frameworks have been tested briefly, but the independent and at the same time connected work which scrum promotes just feels natural."
+  "skill_scrum_description": "The work in development teams was managed using scrum from the beginning. Some other frameworks have been tested briefly, but the independent and at the same time connected work which scrum promotes just feels natural.",
+
+  "skill_csharp_name": "C#",
+  "skill_csharp_subtitle": "C# is a general-purpose, multi-paradigm programming language",
+  "skill_csharp_description": "skill_csharp_description"
 }
