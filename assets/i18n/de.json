@@ -1,0 +1,21 @@
+{
+  "title": "Portfolio Tim Hansen - Softwareentwickler",
+  "information": "Informationen",
+  "informationSubtitle": "Informationen über diese Webseite",
+  "informationAboutSite": "Diese Webseite zeigt das interaktive Portfolio von Tim Hansen. Sie stellt einen Überblick über die Person, die technischen Fähigkeiten und den Bildungsweg dar.",
+  "settings": "Einstellungen",
+  "settingsSubtitle": "Persönliche Einstellungen auf dieser Webseite",
+  "setLanguage": "Bevorzugte Sprache setzen",
+  "flagIconsCreatedBy": "Flaggen-Icons erstellt von",
+  "websiteCreatedBy": "Diese Webseite, alle ihre Komponenten, die Animationen und das Theme wurden vollständig vom Entwickler selbst erstellt. Der gesamte Quellcode is verfügbar auf",
+  "en": "Englisch",
+  "de": "Deutsch",
+  "person": "Person",
+  "companies": "Unternehmen",
+  "skills": "Skills",
+  "education": "Bildung",
+
+  "skill_angular_name": "Angular",
+  "skill_angular_subtitle": "TypeScript-basiertes Front-End-Webapplikationsframework",
+  "skill_angular_description": "Mehrjährige Erfahrung mit der Planung, Gestaltung, Umsetzung und Wartung von umfangreichen Angular-Anwendungen. Wiederverwendbare Komponenten und standardisierte Services in einer sinnvollen und schlanken Paketstruktur sind hierbei oberste Priorität."
+}
