@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {faCog, faInfo} from "@fortawesome/free-solid-svg-icons";
 import {TranslateService} from "@ngx-translate/core";
+import {Title} from "@angular/platform-browser";
 
 @Component({
   selector: 'app-settings',
@@ -15,7 +16,7 @@ export class SettingsComponent implements OnInit {
   showSettingsOverlay = false;
   showInformationOverlay = false;
 
-  constructor(private translate: TranslateService) { }
+  constructor(private translate: TranslateService, private title: Title) { }
 
   ngOnInit(): void {
   }
@@ -35,10 +36,10 @@ export class SettingsComponent implements OnInit {
   }
 
   setLanguage(lang: string): void {
-    console.log('Chosen', lang);
-    console.log('Before', this.translate.currentLang);
     this.translate.use(lang);
-    console.log('After', this.translate.currentLang);
+    this.translate.get('title').subscribe(result => {
+      this.title.setTitle(result);
+    });
   }
 
   getSelectedLang(): string {

@@ -49,6 +49,6 @@ export class CounterfeitButtonComponent implements OnInit {
   }
 
   routeToAnimationComponent(): void {
-    this.router.navigateByUrl('/animation-frame');
+    this.router.navigateByUrl('/overview');
   }
 }

@@ -9,5 +9,9 @@
   "flagIconsCreatedBy": "Flaggen-Icons erstellt von",
   "websiteCreatedBy": "Diese Webseite, alle ihre Komponenten, die Animationen und das Theme wurden vollständig vom Entwickler selbst erstellt. Der gesamte Quellcode is verfügbar auf",
   "en": "Englisch",
-  "de": "Deutsch"
+  "de": "Deutsch",
+  "person": "Person",
+  "companies": "Unternehmen",
+  "skills": "Skills",
+  "education": "Bildung"
 }

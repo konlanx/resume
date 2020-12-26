@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+  <button mat-button class="menu-button" (click)="route('overview/person')">
+    <mat-icon><fa-icon [icon]="faUser"></fa-icon></mat-icon>
+    <span>{{'person' | translate}}</span>
+  </button>
+  <button mat-button class="menu-button" (click)="route('overview/companies')">
+    <mat-icon><fa-icon [icon]="faBuilding"></fa-icon></mat-icon>
+    <span>{{'companies' | translate}}</span>
+  </button>
+  <button mat-button class="menu-button">
+    <mat-icon><fa-icon [icon]="faCodeBranch"></fa-icon></mat-icon>
+    <span>{{'skills' | translate}}</span>
+  </button>
+  <button mat-button class="menu-button">
+    <mat-icon><fa-icon [icon]="faGraduationCap"></fa-icon></mat-icon>
+    <span>{{'education' | translate}}</span>
+  </button>
+  <span class="spacer"></span>
+  <app-settings></app-settings>
+</mat-toolbar>

@@ -13,6 +13,14 @@ import {CommonModule} from "@angular/common";
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
+import { MenuComponent } from './menu/menu.component';
+import { MatToolbarModule} from "@angular/material/toolbar";
+import {MatButtonModule} from "@angular/material/button";
+import {MatIconModule} from "@angular/material/icon";
+import { PersonComponent } from './person/person.component';
+import { CompaniesComponent } from './companies/companies.component';
+import { SkillsComponent } from './skills/skills.component';
+import { SkillComponent } from './skill/skill.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -24,6 +32,11 @@ export function createTranslateLoader(http: HttpClient) {
     AnimationFrameComponent,
     CounterfeitButtonComponent,
     SettingsComponent,
+    MenuComponent,
+    PersonComponent,
+    CompaniesComponent,
+    SkillsComponent,
+    SkillComponent,
   ],
   imports: [
     HttpClientModule,
@@ -39,7 +52,10 @@ export function createTranslateLoader(http: HttpClient) {
     AppRoutingModule,
     BrowserAnimationsModule,
     FontAwesomeModule,
-    MatCardModule
+    MatCardModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

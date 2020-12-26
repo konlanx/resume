@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {RouterOutlet} from "@angular/router";
-import {slideInAnimation} from "./animations";
+import {slideVerticalAnimation} from "./animations/animations";
 import {TranslateService} from "@ngx-translate/core";
 import {Title} from "@angular/platform-browser";
 
@@ -8,7 +8,7 @@ import {Title} from "@angular/platform-browser";
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  animations: [slideInAnimation]
+  animations: [slideVerticalAnimation]
 })
 export class AppComponent {
 
@@ -24,7 +24,7 @@ export class AppComponent {
     });
   }
 
-  prepareRoute(outlet: RouterOutlet) {
+  prepareRoute(outlet: RouterOutlet): void {
     return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
   }
 }

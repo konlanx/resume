@@ -13,27 +13,31 @@
 }
 
 .counterfeit-button-border {
+  z-index: 0;
   width: 100%;
   height: 100%;
   border-radius: 50%;
   background-color: #3392cc;
-  transition-duration: 0.2s;
+  animation: heartbeat 2s infinite;
 }
 
-.counterfeit-button-border.grow {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+.counterfeit-button.grow {
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
 }
 
 .counterfeit-button {
+  z-index: 1;
   position: absolute;
+  left: 5%;
+  top: 5%;
   width: 90%;
   height: 90%;
-  margin-left: 5%;
-  margin-top: 5%;
   border-radius: 50%;
+  border: 3px solid white;
   background-color: gray;
+  transition-duration: 0.2s;
 }
 
 .counterfeit-button-image {
@@ -44,4 +48,23 @@
 
 .counterfeit-button:hover {
   cursor: pointer;
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( 1 );
+    opacity: 1;
+  }
+  50%
+  {
+    transform: scale( 1.3 );
+    opacity: 0;
+
+  }
+  100%
+  {
+    opacity: 0;
+  }
 }

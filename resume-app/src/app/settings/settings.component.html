@@ -1,10 +1,14 @@
 <div class="settings">
-  <div class="settings-button" [ngClass]="showSettingsOverlay ? 'selected-button' : ''" (click)="toggleSettingsOverlay()">
-    <fa-icon [icon]="faCog"></fa-icon>
+  <div class="settings-button" (click)="toggleSettingsOverlay()">
+    <button mat-icon-button>
+      <mat-icon><fa-icon [icon]="faCog"></fa-icon></mat-icon>
+    </button>
   </div>
 
-  <div class="settings-button" [ngClass]="showInformationOverlay ? 'selected-button' : ''" (click)="toggleInformationOverlay()">
-    <fa-icon [icon]="faInfo"></fa-icon>
+  <div class="settings-button" (click)="toggleInformationOverlay()">
+    <button mat-icon-button>
+      <mat-icon><fa-icon [icon]="faInfo"></fa-icon></mat-icon>
+    </button>
   </div>
 </div>
 
@@ -41,15 +45,17 @@
       <mat-card-subtitle> {{'informationSubtitle' | translate}}</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
-      <p>
-        {{'informationAboutSite' | translate}}
-      </p>
-      <p>
-        {{'flagIconsCreatedBy' | translate}} <a href="https://www.flaticon.com/de/autoren/freepik">FreePik</a>
-      </p>
-      <p>
-        {{'websiteCreatedBy' | translate}} <a href="https://github.com/tihansen/resume">GitHub</a>
-      </p>
+      <div style="white-space: normal">
+        <p>
+          {{'informationAboutSite' | translate}}
+        </p>
+        <p>
+          {{'flagIconsCreatedBy' | translate}} <a href="https://www.flaticon.com/de/autoren/freepik">FreePik</a>
+        </p>
+        <p>
+          {{'websiteCreatedBy' | translate}} <a href="https://github.com/tihansen/resume">GitHub</a>
+        </p>
+      </div>
     </mat-card-content>
     <mat-card-actions>
 
