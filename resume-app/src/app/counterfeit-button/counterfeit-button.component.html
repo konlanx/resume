@@ -1,0 +1,9 @@
+<div class="background" [ngStyle]="{'width.px': getBackgroundWidth(), 'height.px': getBackgroundHeight()}">
+  <div class="counterfeit-button-container" [ngStyle]="{'width.px': getButtonSize(), 'height.px': getButtonSize(), 'margin-left.px': getButtonMargin(), 'margin-top.px': getButtonMargin()}">
+    <div class="counterfeit-button-border" [ngClass]="buttonMouse ? 'grow' : ''">
+      <div class="counterfeit-button" (mouseenter)="buttonMouseEnter()" (mouseleave)="buttonMouseLeave()" (click)="routeToAnimationComponent()">
+        <img class="counterfeit-button-image" src="/assets/counterfeit.png"  alt="Counterfeit"/>
+      </div>
+    </div>
+  </div>
+</div>

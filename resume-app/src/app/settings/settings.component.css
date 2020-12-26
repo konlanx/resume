@@ -1,0 +1,54 @@
+.settings {
+  position: absolute;
+  top: 0.5em;
+  right: 0;
+}
+
+.settings-button {
+  cursor: pointer;
+  font-size: 2em;
+  float: right;
+  padding-right: 0.5em;
+}
+
+.settings-button:hover {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+.settings-overlay {
+  position: absolute;
+  top: 0.5em;
+  right: 3em;
+  font-size: 2em;
+  width: 40%;
+}
+
+.header-image {
+  background-image: url('../../assets/counterfeit.png');
+  background-size: cover;
+}
+
+.flag {
+  cursor: pointer;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  display: inline-block;
+  text-align: center;
+}
+
+.selected {
+  background-color: white;
+  color: #2c2c2c;
+}
+
+.flag-image {
+  height: 3em;
+}
+
+.selected-button {
+  color: #2075b9;
+}

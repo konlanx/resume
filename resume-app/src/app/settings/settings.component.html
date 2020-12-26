@@ -1,0 +1,59 @@
+<div class="settings">
+  <div class="settings-button" [ngClass]="showSettingsOverlay ? 'selected-button' : ''" (click)="toggleSettingsOverlay()">
+    <fa-icon [icon]="faCog"></fa-icon>
+  </div>
+
+  <div class="settings-button" [ngClass]="showInformationOverlay ? 'selected-button' : ''" (click)="toggleInformationOverlay()">
+    <fa-icon [icon]="faInfo"></fa-icon>
+  </div>
+</div>
+
+<div *ngIf="showSettingsOverlay" class="settings-overlay">
+  <mat-card>
+    <mat-card-header>
+      <div mat-card-avatar><fa-icon [icon]="faCog"></fa-icon></div>
+      <mat-card-title>{{'settings' | translate}}</mat-card-title>
+      <mat-card-subtitle>{{'settingsSubtitle' | translate}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        {{'setLanguage' | translate}}
+      </p>
+      <div class="flags">
+        <div class="flag de" [ngClass]="getSelectedLang() === 'de' ? 'selected' : ''" (click)="setLanguage('de')">
+          <img class="flag-image" alt="{{'de' | translate}}" src="assets/de.png" /> <br />
+          <span>{{'de' | translate}}</span>
+        </div>
+        <div class="flag en" [ngClass]="getSelectedLang() === 'en' ? 'selected' : ''" (click)="setLanguage('en')">
+          <img class="flag-image" alt="{{'en' | translate}}" src="assets/en.png" /> <br />
+          <span>{{'en' | translate}}</span>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
+
+<div *ngIf="showInformationOverlay" class="settings-overlay">
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="header-image"></div>
+      <mat-card-title>{{'information' | translate}}</mat-card-title>
+      <mat-card-subtitle> {{'informationSubtitle' | translate}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+        {{'informationAboutSite' | translate}}
+      </p>
+      <p>
+        {{'flagIconsCreatedBy' | translate}} <a href="https://www.flaticon.com/de/autoren/freepik">FreePik</a>
+      </p>
+      <p>
+        {{'websiteCreatedBy' | translate}} <a href="https://github.com/tihansen/resume">GitHub</a>
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+
+    </mat-card-actions>
+  </mat-card>
+
+</div>
