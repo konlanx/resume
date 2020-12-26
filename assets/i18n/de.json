@@ -15,6 +15,10 @@
   "skills": "Skills",
   "education": "Bildung",
 
+  "timHansen": "Tim Hansen",
+  "occupationLocation": "Softwareentwickler, 26 Jahre alt, Hamburg",
+  "personal": "Persönliche Informationen",
+
   "skill_angular_name": "Angular",
   "skill_angular_subtitle": "TypeScript-basiertes Front-End-Webapplikationsframework",
   "skill_angular_description": "Mehrjährige Erfahrung mit der Planung, Gestaltung, Umsetzung und Wartung von umfangreichen Angular-Anwendungen. Wiederverwendbare Komponenten und standardisierte Services in einer sinnvollen und schlanken Paketstruktur sind hierbei oberste Priorität.",

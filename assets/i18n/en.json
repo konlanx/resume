@@ -15,6 +15,10 @@
   "skills": "Skills",
   "education": "Education",
 
+  "timHansen": "Tim Hansen",
+  "occupationLocation": "Software developer, 26 years old, Hamburg, Germany",
+  "personal": "Personal information",
+
   "skill_angular_name": "Angular",
   "skill_angular_subtitle": "TypeScript-based open-source web application framework",
   "skill_angular_description": "Multiple years of experience with planning, designing, implementing and supporting of extensive Angular applications. Reusable components and standardized services in a smart and lean package structures have highest priority.",
