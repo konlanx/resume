@@ -1,0 +1,15 @@
+<mat-card class="skill-card">
+  <mat-card-header>
+    <div mat-card-avatar class="header-image" [ngStyle]="{'background-image': 'url(assets/' + image + '.png)'}"></div>
+    <mat-card-title>{{name | translate}}</mat-card-title>
+    <mat-card-subtitle>{{subtitle | translate}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <p>
+      {{'since' | translate}} {{sinceDate | localizedDate: 'short'}} {{'until' | translate}} {{toDate | localizedDate: 'short'}}
+    </p>
+    <p>
+      {{description | translate}}
+    </p>
+  </mat-card-content>
+</mat-card>

@@ -5,6 +5,7 @@ import {AnimationFrameComponent} from "./animation-frame/animation-frame.compone
 import {PersonComponent} from "./person/person.component";
 import {CompaniesComponent} from "./companies/companies.component";
 import {SkillsComponent} from "./skills/skills.component";
+import {EducationComponent} from "./education/education.component";
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/portrait'},
@@ -14,7 +15,8 @@ const routes: Routes = [
       { path: '', component: PersonComponent, data: {animation: 'Person'} },
       { path: 'person', component: PersonComponent, data: {animation: 'Person'} },
       { path: 'companies', component: CompaniesComponent, data: {animation: 'Companies'} },
-      { path: 'skills', component: SkillsComponent, data: {animation: 'Skills'} }
+      { path: 'skills', component: SkillsComponent, data: {animation: 'Skills'} },
+      { path: 'education', component: EducationComponent, data: {animation: 'Education'} }
     ]
   }
 ];

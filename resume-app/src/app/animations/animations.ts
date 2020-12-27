@@ -10,12 +10,19 @@ export const slideHorizontalAnimation =
   trigger('routeAnimations', [
     transition('Person => Companies', slideHorizontal('right') ),
     transition('Person => Skills', slideHorizontal('right') ),
+    transition('Person => Education', slideHorizontal('right') ),
 
     transition('Companies => Person', slideHorizontal('left') ),
     transition('Companies => Skills', slideHorizontal('right') ),
+    transition('Companies => Education', slideHorizontal('right') ),
 
     transition('Skills => Person', slideHorizontal('left') ),
     transition('Skills => Companies', slideHorizontal('left') ),
+    transition('Skills => Education', slideHorizontal('right') ),
+
+    transition('Education => Person', slideHorizontal('left') ),
+    transition('Education => Companies', slideHorizontal('left') ),
+    transition('Education => Skills', slideHorizontal('left') ),
   ]);
 
 function slideVertical(direction: string) {

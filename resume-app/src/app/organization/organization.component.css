@@ -1,0 +1,7 @@
+.header-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 7em;
+  width: 15em;
+  border-radius: 0;
+}

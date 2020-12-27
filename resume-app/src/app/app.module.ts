@@ -21,6 +21,9 @@ import { CompaniesComponent } from './companies/companies.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SkillComponent } from './skill/skill.component';
 import { MatProgressBarModule} from "@angular/material/progress-bar";
+import { OrganizationComponent } from './organization/organization.component';
+import { EducationComponent } from './education/education.component';
+import {LocalizedDatePipe} from "./pipes/localized-date-pipe";
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -37,6 +40,9 @@ export function createTranslateLoader(http: HttpClient) {
     CompaniesComponent,
     SkillsComponent,
     SkillComponent,
+    OrganizationComponent,
+    EducationComponent,
+    LocalizedDatePipe,
   ],
   imports: [
     HttpClientModule,
