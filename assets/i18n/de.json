@@ -7,6 +7,7 @@
   "settingsSubtitle": "Persönliche Einstellungen auf dieser Webseite",
   "setLanguage": "Bevorzugte Sprache setzen",
   "flagIconsCreatedBy": "Flaggen-Icons erstellt von",
+  "imageDisclaimer": "Die hier verwendeten Logos gehören den jeweiligen Firmen, bzw. Projekten.",
   "websiteCreatedBy": "Diese Webseite, alle ihre Komponenten, die Animationen und das Theme wurden vollständig vom Entwickler selbst erstellt. Der gesamte Quellcode is verfügbar auf",
   "en": "Englisch",
   "de": "Deutsch",
@@ -14,6 +15,9 @@
   "companies": "Unternehmen",
   "skills": "Skills",
   "education": "Bildung",
+
+  "since": "Von",
+  "until": "bis",
 
   "timHansen": "Tim Hansen",
   "occupationLocation": "Softwareentwickler, 26 Jahre alt, Hamburg",
