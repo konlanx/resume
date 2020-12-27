@@ -22,6 +22,7 @@
   "timHansen": "Tim Hansen",
   "occupationLocation": "Softwareentwickler, 26 Jahre alt, Hamburg",
   "personal": "Persönliche Informationen",
+  "technicalInterest": "Technologisches Interesse",
 
   "skill_angular_name": "Angular",
   "skill_angular_subtitle": "Angular ist ein TypeScript-basiertes Front-End-Webapplikationsframework",
