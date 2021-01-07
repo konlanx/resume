@@ -24,6 +24,7 @@ import { MatProgressBarModule} from "@angular/material/progress-bar";
 import { OrganizationComponent } from './organization/organization.component';
 import { EducationComponent } from './education/education.component';
 import {LocalizedDatePipe} from "./pipes/localized-date-pipe";
+import {MatGridListModule} from "@angular/material/grid-list";
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -62,7 +63,8 @@ export function createTranslateLoader(http: HttpClient) {
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

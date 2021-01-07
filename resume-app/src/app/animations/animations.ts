@@ -13,11 +13,11 @@ export const slideHorizontalAnimation =
     transition('Person => Education', slideHorizontal('right') ),
 
     transition('Companies => Person', slideHorizontal('left') ),
-    transition('Companies => Skills', slideHorizontal('right') ),
+    transition('Companies => Skills', slideHorizontal('left') ),
     transition('Companies => Education', slideHorizontal('right') ),
 
     transition('Skills => Person', slideHorizontal('left') ),
-    transition('Skills => Companies', slideHorizontal('left') ),
+    transition('Skills => Companies', slideHorizontal('right') ),
     transition('Skills => Education', slideHorizontal('right') ),
 
     transition('Education => Person', slideHorizontal('left') ),
@@ -47,8 +47,6 @@ function slideVertical(direction: string) {
         animate('1500ms ease', style({ [direction]: '0%'}))
       ])
     ]),
-    query(':leave', animateChild()),
-    query(':enter', animateChild()),
   ];
 }
 

@@ -22,6 +22,7 @@
   "timHansen": "Tim Hansen",
   "occupationLocation": "Software developer, 26 years old, Hamburg, Germany",
   "personal": "Personal information",
+  "technicalInterest": "Technological interests",
 
   "skill_angular_name": "Angular",
   "skill_angular_subtitle": "Angular is a TypeScript-based open-source web application framework",

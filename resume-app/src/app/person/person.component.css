@@ -9,3 +9,19 @@
 .mat-card-content {
   margin-top: 1em;
 }
+
+.text-image {
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid white;
+  height: 12em;
+  width: 12em;
+}
+
+.robot-image {
+  background-image: url('../../assets/rp6.png');
+}
+
+.computer-image {
+  background-image: url('../../assets/computer.png');
+}
