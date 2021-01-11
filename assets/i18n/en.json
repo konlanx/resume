@@ -23,6 +23,9 @@
   "occupationLocation": "Software developer, 26 years old, Hamburg, Germany",
   "personal": "Personal information",
   "technicalInterest": "Technological interests",
+  "technicalInterest_long_text": "Meine Interessen in technischen Bereichen entwickelten sich immer weiter, während ich ein Gymnasium besucht habe. Leider war der dort angebotene Informatik-Unterricht nicht gerade… fortschrittlich. So erinnere ich mich noch heute daran, dass ich eine schlechte Note erhielt, da meine Homepage nicht auf einem Frames-Layout basierte.\nNach der 10. Klasse wechselte ich auf ein nahegelegenes Fachgymnasium für Technik, in welchem ich auch mein Abitur gemacht habe.\nWährend dieser Zeit habe ich immer öfter eigenständig programmiert, auch wenn der Code rückblickend betrachtet natürlich nicht gerade ein Glanzbeispiel für die Einhaltung von Entwurfsmustern dargestellt hat.\nBesonders stolz war ich auf ein Projekt, das ich im Rahmen einer Schulaufgabe umgesetzt habe und bei dem ich einen RP6-Roboter so programmiert habe, dass er selbstständig ein Labyrinth erkennen und dann den kürzesten Weg darin bestimmen konnte. Den Roboter haben mir meine Eltern geschenkt und er existiert noch heute.\n",
+
+  "fromHundred": "of 100",
 
   "skill_angular_name": "Angular",
   "skill_angular_subtitle": "Angular is a TypeScript-based open-source web application framework",

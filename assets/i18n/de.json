@@ -22,7 +22,10 @@
   "timHansen": "Tim Hansen",
   "occupationLocation": "Softwareentwickler, 26 Jahre alt, Hamburg",
   "personal": "Persönliche Informationen",
+  "personal_long_text": "Wie viele Angehörige meiner Generation habe ich bereits früh den Hang zur Technik entdeckt. Im Kindesalter begann dies vor allem mit der Nutzung von Spielkonsolen, eine Entwicklung, die von meinen Eltern sehr skeptisch betrachtet wurde.\nMein Großvater förderte diese Interessen stark. Durch seinen früheren Beruf als Ingenieur war er technisch sehr versiert und hatte nicht wie viele andere Menschen seines Alters Probleme damit, technische Geräte zu verstehen, sondern brachte mir vielmehr bei, wie diese funktionieren.\nUnter seiner Anleitung programmierte ich ein kleines Klickspiel auf einem Computer, der seine Daten von Kassetten geladen hat. Zugegebenermaßen habe ich wenig verstanden, doch das Interesse war geweckt worden!\n",
   "technicalInterest": "Technologisches Interesse",
+
+  "fromHundred": "von 100",
 
   "skill_angular_name": "Angular",
   "skill_angular_subtitle": "Angular ist ein TypeScript-basiertes Front-End-Webapplikationsframework",
